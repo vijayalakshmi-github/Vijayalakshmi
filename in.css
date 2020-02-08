@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+.virtual
+{
+	height: 100%;
+	width:960px;
+	margin:0px auto;
+}
+
+#header
+{
+	height: 5.5vw;
+	background-color: white;
+	margin-top:0px;
+	background-color: lightgray;
+	
+}
+body
+{
+	/*background-color:#F7F7F7;*/
+	
+}
+#logo
+{
+	height: 4vw;
+	width:5vw;
+	background-image: url(FrontendAssets/logo.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	float: left;
+	margin-top: 10px;
+	
+}
+#title
+{
+	line-height: 5em;
+	font-family: "Aharoni";	
+	float: left;
+}
+.nav
+{
+	z-index: 2;
+	width: 960px;
+	height: 60px;
+	margin: 40px 0px 0px 0px;
+	/*background-color: steelblue;*/
+	background-color: bisque;
+	position: relative;
+}
+.nav a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+	
+}
+.op
+{
+	color: #FFFFFF;
+	font-size: 1em;
+	font-family: "Aharoni";
+}
+.op li
+{
+	list-style-type: none;
+	color: black;
+	height: 60px;
+	width:100px;
+	text-align:center;
+	line-height: 60px;
+	box-sizing: border-box;
+	cursor:pointer;
+	float:right;
+}
+.op li:hover
+{
+	background-color:rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+}
+.op li:active
+{
+	background-color: aquamarine;
+}
+.profile
+{
+	float: right;
+	height: 2.5vw;
+	width: 2.5vw;
+	background-color: lightgray;
+	margin-top: .75vw;
+	margin-left: 1vw;
+	border-radius: 3vw;
+	background-image: url(FrontendAssets/profile.svg);
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	
+}
+#down
+{
+	float: right;
+	color:black;
+	height: 2.5vw;
+	width:2.5vw;
+	margin-top: 1vw;
+	margin-left: .50vw;
+	font-size: 2vw;
+	
+	text-align:center;
+	font-family: "BankGothic Md BT";
+}
